@@ -35,3 +35,22 @@ db-migrate up
 type in command:
 
 npm run start
+
+
+# Bcrypt
+bcrypt is  used to create a hashed password
+
+## we should install bcrypt 
+1. npm i bcrypt
+2. import bcrypt from 'bcrypt'  
+
+## bcrypt has 2 main methods
+### To create a hashed password
+```bcrypt.hashSync(password + pepper , parseInt(saltround)) ```
+### To validate a hashed password
+bcrypt.comparesync(password+ pepper , hashed_password) to validate a given hashed password)
+this method returns true or false
+#### example
+if (bcrypt.compareSync(password + pepper, user.password_digest)) {
+        return user;
+}
