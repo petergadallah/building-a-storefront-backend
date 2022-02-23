@@ -4,21 +4,29 @@ type in command:
 npm i
 
 # Create the .env file
-for example:
+## for example:
 
 POSTGRES_HOST=127.0.0.1
+
 POSTGRES_DB=newdatabase
+
 POSTGRES_USER=postgres
+
 POSTGRES_PORT=5432
+
 POSTGRES_PASSWORD= 111
+
 POSTGRES_TEST_DB=newdatabase2
+
 ENV=dev
 
 PORT=3800
-BCRYPT_PASSWORD=petergadallah
-```SALT_ROUNDS=10```
 
-```TOKEN_SECRET=peter123```
+BCRYPT_PASSWORD=petergadallah
+
+SALT_ROUNDS=10
+
+TOKEN_SECRET=peter123
 
 # The database
 ## database port
