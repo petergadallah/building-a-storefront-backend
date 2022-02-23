@@ -17,6 +17,7 @@ ENV=dev
 PORT=3800
 BCRYPT_PASSWORD=petergadallah
 ```SALT_ROUNDS=10```
+
 ```TOKEN_SECRET=peter123```
 
 # The database
